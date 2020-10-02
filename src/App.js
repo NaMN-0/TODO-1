@@ -39,7 +39,7 @@ class App extends Component {
       return (
           <div className='App'>
             <h1>TO-DO List</h1>
-            <form action="" onSubmit={this.putTask}>
+            <form action="#" onSubmit={this.putTask}>
               <input type="text" name="data" onChange={this.newTask}/>
               <button action="submit">Add</button>
             </form>
